@@ -1,0 +1,1 @@
+//Este é um arquivo para exemplo de estruturação de um sistema sem fins de agregar em nenhuma funcionalidade ao mesmo.//

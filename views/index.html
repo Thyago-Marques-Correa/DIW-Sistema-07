@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="Sistema 07" content="By Thyago.marques">
+    <link rel="shortcut icon" href="../img/icontaref.png" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="alinhamento">
+            <h1>Lista de Tarefas</h1>
+            <input id="novaTarefa" type="text" placeholder="Nova tarefa">
+            <input id="dataLimite" type="date" placeholder="Data Limite">
+            <select id="categoria">
+                <option value="trabalho">Trabalho</option>
+                <option value="pessoal">Pessoal</option>
+            </select>
+            <button onclick="adicionarTarefa()">Adicionar</button>
+        </div>
+        <ul id="listaDeTarefas"></ul>
+        <footer class="alinhamento">
+            <button onclick="voltar()">Voltar</button>
+        </footer>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
